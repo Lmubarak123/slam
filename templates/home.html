@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#ff69b4">
+
+    <form action="/slam" method="post">
+        {% csrf_token%}
+      <center>  <select name="t1">
+  <option value="mubarak" name="n1">mubarak</option>
+  <option value="vinod" name="n2">vinod</option>
+  <option value="rafi" name="n3">rafi</option>
+  <option value="ramana" name="n4">ramana</option>
+</select></center>
+        <center><input type="submit" value="enter"></center><br><br>
+
+
+        <a href="/login">click to vinod slam</a><br>
+        <a href="/login">click to mubarak slam</a><br>
+        <a href="/login">click to rafi slam</a><br>
+        <a href="/login">click to ramana slam</a><br>
+</body>
+</html>
